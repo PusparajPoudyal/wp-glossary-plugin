@@ -1,0 +1,107 @@
+.glossary-search {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.glossary-search input[type="text"] {
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.glossary-search button {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.glossary-search button svg {
+  fill: #999;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.glossary-search button svg path {
+  pointer-events: none;
+}
+/* Add the following CSS styles to your styles.css file or your theme's CSS file */
+
+.glossary-main-container {
+  margin: 20px;
+}
+.glossary-letter-container {
+  display: flex;
+}
+.glossary-search {
+  margin-bottom: 20px;
+}
+
+.glossary-terms-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.gloss-letter {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.glossary-terms-list {
+  flex-basis: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.glossary-terms-sublist {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  flex-basis: 32%;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+.glossary-terms-sublist li {
+  margin-bottom: 10px;
+}
+
+.glossary-terms-sublist a {
+  text-decoration: none;
+}
+
+.glossary-terms-sublist a:hover {
+  text-decoration: underline;
+}
+.index-item {
+  display: flex;
+}
+.glossary-search input[type="text"] {
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.glossary-search input[type="text"]:focus {
+  border-color: red;
+  outline: none;
+}
+.glossary-search-clear {
+  font-size: 20px;
+  display: none;
+}
